@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import LoginPage from "./pages/login";
 import SignupPage from "./pages/Signup";
-import HomePage from "./pages/Home";
+// import HomePage from "./pages/Home";
 import Navbar from "./components/Navbar";
 import DashboardPage from "./pages/Dashboard";
 import MyMusicPage from "./pages/MyMusic";
@@ -13,7 +13,7 @@ const App = () => {
     <Router>
       <ConditionalNavbar />
       <Routes>
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
         {/* <Route path="/" element={<DashboardPage />} /> */}
         <Route path="/dashboard" element={<DashboardPage />} />
