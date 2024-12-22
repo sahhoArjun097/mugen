@@ -1,0 +1,8 @@
+musice_generator
+mugen/deutschl
+mugen/models-h5
+mugen/music
+Frontend/node_modules
+venv
+__pycache__
+.env

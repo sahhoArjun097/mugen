@@ -1,0 +1,15 @@
+.loginBackgroundImage{
+    background-image: url('../assets/Background.jpeg');
+}
+
+.homeBackgroundImage{
+    background: linear-gradient(to bottom, rgb(231, 27, 231), rgba(16, 146, 233, 0.89)25%, rgba(0, 0, 0, 1)48%);
+    /* background-color: black; */
+}
+
+body {
+    background-size: 60px 60px;
+    background-image:
+      linear-gradient(to right, gray 1px, transparent 1px),
+      linear-gradient(to bottom, gray 1px,transparent 1px);
+  }
