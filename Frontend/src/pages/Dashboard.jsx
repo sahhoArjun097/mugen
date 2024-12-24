@@ -1,4 +1,5 @@
 import React from "react";
+import "./pages.css"
 import { Link } from "react-router-dom";
 
 const DashboardPage = () => {
