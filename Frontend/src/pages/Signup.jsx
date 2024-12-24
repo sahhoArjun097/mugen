@@ -57,7 +57,7 @@ const SignupPage = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-[90%] ml-4 py-3 text-white border-b-2 border-gray-100 border-opacity-30 backdrop-blur-2xl bg-transparent focus:outline-none focus:border-opacity-100 bg-opacity-10"
+              className="w-[90%] ml-4 py-3  border-b-2 border-opacity-30 backdrop-blur-2xl bg-transparent focus:outline-none focus:border-opacity-100 bg-opacity-10"
               placeholder="Enter your email"
             />
           </div>
