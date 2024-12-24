@@ -13,7 +13,7 @@ const App = () => {
     <Router>
       <ConditionalNavbar />
       <Routes>
-        <Route path="/" element={<LoginPage />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
         {/* <Route path="/" element={<DashboardPage />} /> */}
         <Route path="/dashboard" element={<DashboardPage />} />
